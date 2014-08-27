@@ -1,5 +1,5 @@
 include runmanager/main.pyw
-recursive-include runmanager/*.glade
-recursive-include runmanager/*.ico
-recursive-include runmanager/*.png
-recursive-include runmanager/*.svg
+recursive-include runmanager *.glade
+recursive-include runmanager *.ico
+recursive-include runmanager *.png
+recursive-include runmanager *.svg
