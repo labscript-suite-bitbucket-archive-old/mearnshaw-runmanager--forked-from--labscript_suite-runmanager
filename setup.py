@@ -4,6 +4,7 @@ use_setuptools()
 from setuptools import setup, find_packages
 setup(
         name = "runmanager",
+        include_package_data = True,
         packages = find_packages(),
         install_requires = ['zprocess', 'qtutils']
 )
